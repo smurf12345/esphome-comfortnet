@@ -2,7 +2,7 @@
 substitutions:
   name: "econet"
   friendly_name: "Econet Device"
-  device_description: "Rheem Device"
+  device_description: "Amana/Goodman Device"
   tx_pin: GPIO19
   rx_pin: GPIO22
   platform: esp32
