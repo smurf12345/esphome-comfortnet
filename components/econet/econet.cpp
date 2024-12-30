@@ -11,8 +11,8 @@ static const uint32_t RECEIVE_TIMEOUT = 100;
 static const uint32_t REQUEST_DELAY = 100;
 
 static const uint8_t DST_ADR_POS = 0;
-static const uint8_t SRC_ADR_POS = 5;
-static const uint8_t LEN_POS = 10;
+static const uint8_t SRC_ADR_POS = 1;
+static const uint8_t LEN_POS = 9;
 static const uint8_t COMMAND_POS = 13;
 
 static const uint8_t OBJ_NAME_POS = 6;
