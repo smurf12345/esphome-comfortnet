@@ -1,13 +1,13 @@
 ---
 substitutions:
-  tx_pin: GPIO19
-  rx_pin: GPIO22
+  tx_pin: GPIO17
+  rx_pin: GPIO16
   platform: esp32
   board: esp32dev
 
 packages:
   econet:
-    url: https://github.com/esphome-econet/esphome-econet
+    url: https://github.com/smurf12345/esphome-comfortnet
     ref: main
     file: econet_hvac_furnace.yaml
   # Uncomment if you have an communicating Outdoor Unit
@@ -17,7 +17,7 @@ packages:
   #   file: econet_hvac_odu.yaml
 
 dashboard_import:
-  package_import_url: github://esphome-econet/esphome-econet/build-yaml/${name}-${platform}.yaml@${github_ref}
+  package_import_url: github://smurf12345/esphome-comfortnet/build-yaml/${name}-${platform}.yaml@${github_ref}
   import_full_config: false
 
 # Uncomment the below to use Wi-Fi settings from your secrets.yaml file
