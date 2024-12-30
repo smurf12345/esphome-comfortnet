@@ -3,7 +3,7 @@ substitutions:
   name: "econet-hvac"
   friendly_name: "Rheem HVAC"
   device_description: "Rheem HVAC"
-  thermostat_address: "0x380"
+  thermostat_address: "0x01"
   wifi_module_address: "0x340"
 
 packages:
