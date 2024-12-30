@@ -3,7 +3,7 @@ substitutions:
   name: "econet-hvac_furnace"
   friendly_name: "Rheem HVAC"
   device_description: "Rheem HVAC"
-  furnace_address: "448"
+  furnace_address: "02"
   furnace_kbtus_per_m3: "35.300" # Natural Gas = approx 35.300, Propane = approx 88.852
 
 packages:
