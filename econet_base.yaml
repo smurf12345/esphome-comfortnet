@@ -3,8 +3,8 @@ substitutions:
   name: "econet"
   friendly_name: "Econet Device"
   device_description: "Rheem Device"
-  tx_pin: GPIO19
-  rx_pin: GPIO22
+  tx_pin: GPIO17
+  rx_pin: GPIO16
   platform: esp32
   board: esp32dev
   github_ref: main
